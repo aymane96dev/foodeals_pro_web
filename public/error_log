@@ -1,0 +1,2 @@
+[03-Jun-2019 14:12:47 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/foodeals/public_html/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 380
+[29-Jun-2019 13:06:35 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/foodeals/admin.foodeals.ma/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500

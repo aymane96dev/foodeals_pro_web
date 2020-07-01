@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="667d8bb4-0866-4cf6-bc9b-71d897b4b00e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/FoodealsDash/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/FoodealsDash/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/FoodealsDash/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Commande.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/DetailCommande.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/GererErreur.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/ClientController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/GenererPDF.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/RestaurantController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/RestoParMois.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/Service_Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/TypeProduitController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/TyperestaurantController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Requests/RestaurantRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Http/Requests/RestaurantRequestModify.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Produit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Restaurant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Signature.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/Typeproduit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_145353_create_admins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_145403_create_payements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_145505_create_typerestaurants.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_145511_create_localisations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_1455_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_145702_create_signatures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_145712_create_restaurants.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_150106_create_favoris.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_150401_create_commandes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_150515_create_produits.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/2019_04_08_160348_create_detailcommandes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/migrations/foodeals.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/ace-fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/ace-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/ace.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.standalone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.standalone.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.standalone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker.standalone.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.standalone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.standalone.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.standalone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-datepicker3.standalone.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap-toggle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstrap2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/bootstraptoggle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/sweetalert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/css/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/bootstrap-toggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/bootstraptoggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-steps/jquery.steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-steps/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_az.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_bn_BD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_bn_BD.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_es_AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_es_AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_es_PE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_es_PE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_et.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_eu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ge.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_gl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_hy_AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_hy_AM.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_is.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ka.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_kk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_lv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_mk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_my.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_no.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_pt_BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_pt_PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_pt_PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_si.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sr_lat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sr_lat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_tj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_uk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_ur.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/messages_zh_TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_es_CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_es_CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery-validation/dist/localization/methods_pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vendor/minimalist-picker/dobpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/assets/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/boualam/clients.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/boualam/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/boualam/listClientCommande.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/boualam/listDetailCommande.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/boualam/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/ilyasse/Restaurant.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/ilyasse/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/insaf/Restaurant.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/insaf/afficherCeMoisPDF.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/insaf/afficherParSemainePDF.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/insaf/invoice.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/insaf/invoice2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/ismail/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/issam/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/youssef/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/resources/views/youssef/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/debugbar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodealsDash/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="RestaurantController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestaurantController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Restaurant.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/insaf/Restaurant.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="64" column="127" selection-start-line="64" selection-start-column="127" selection-end-line="64" selection-end-column="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FoodealsDash" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/date" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="insaf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../food-deals" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="667d8bb4-0866-4cf6-bc9b-71d897b4b00e" name="Default" comment="" />
+      <created>1583340157679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583340157679</updated>
+      <workItem from="1583340161288" duration="1168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1168000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestaurantController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/insaf/Restaurant.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="64" column="127" selection-start-line="64" selection-start-column="127" selection-end-line="64" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
